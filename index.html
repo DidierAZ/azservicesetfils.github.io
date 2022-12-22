@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <title>Entrainement</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head >
+
+    <body class="Entrainement">
+      <nav class="ENT">
+        
+        <h1 class="ab">AZ SERVICES ET FILS</h1>
+        <img class="az" src="2l.jpeg" alt="">
+      
+        <div class="onglets">
+          
+            <a href="">Acceill</a>
+            <a href="#produits">Nos produits</a>
+            <a href="">Contact</a>
+
+        </div>
+      </nav> 
+      <header class="ZA">
+      </header> 
+      <div class="BD">
+        <h1> LES DOCUMENTS DE L'ETAT CIVIL</h1>
+      </div>
+      <section class="main" id="produits">
+       
+        <div class="content">
+          <div class="card">
+            <div class="left">
+              <h1>DUPLICATA du récépissé RAVIP</h1>
+              <P>Vous etez Beninoise ou étranger, vous avez fait l'enroulement du RAVIP et vous avez perdu le récépissé. IL VOUS FAUT LE DUPLICATA DU RECEPISE RAVIP</P>
+            </div>
+            <div class="right">
+              <img src="IMAGE/DUPLICA (2).png" alt="">
+            </div>
+          </div>
+          <div class="card">
+            <div class="left">
+              <h1>ACTE DE NAISSANCE SECURISE</h1>
+              <P> Votre acte de naissance securisé</P>
+            </div>
+            <div class="right">
+              <img src="IMAGE/ACTE DE NAISSANCE.png" alt="">
+            </div>
+          </div>
+          <div class="card">
+            <div class="left">
+              <h1>CARTE D'IDENTIFICATON PERSONNEL</h1>
+              <p> Cette carte communement appel CIP à une dure de vie de 2 ans</p>
+            </div>
+            <div class="right">
+              <img src="IMAGE/CIP.png" alt="">
+            </div>
+          </div>
+          <div class="card">
+            <div class="left">
+              <h1>VOTRE CARTE D'IDENTITE BIOMETRIQUE </h1>
+              <P>Cette carte à une dure de vie de cinq (5) ans</P>
+            </div>
+            <div class="right">
+              <img src="IMAGE/CARTE PROFEC.png" alt="">
+            </div>
+          </div>
+          <div class="card">
+            <div class="left">
+              <h1>VOTRE NUMERO NPI</h1>
+              <P>Cette carte à une duré de vie illimité</P>
+            </div>
+            <div class="right">
+              <img src="IMAGE/CEST MOI.png" alt="">
+            </div>
+          </div>
+        </div>
+        
+      </section>
+      <section class="trois">
+        <div class="GRS">
+<div class="GR">
+  <img src="" alt="">
+</div>
+        </div>
+      </section>
+     
+
+    </body>
+    /* les Objectifs */
+.ASEF, html{
+    margin: 0;
+    height: 100%;
+}
+.imagacceill{
+    background-image: url(IMAGE/Construction\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 50%;
+    position: relative;
+    
+}
+.imagacceill p{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 100px;
+    position: absolute;
+    width: 100%;
+    color: black;
+    
+}
+.bt1{
+    height: 50px;
+    width: 200px;
+    border: none;
+    cursor: pointer;
+    background-color: red;
+}.bt1:hover{
+    background-color: #581845;
+}
+/* 2em objectif */
+#navlang a{
+    position: absolute;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ddd;
+    left: -100px;
+    border-radius:0px 5px 5px 0px ;
+    
+}
+
+#navlang a:hover{
+    left: 0;
+}
+#navlang a img{
+    height: 5px;
+}
+#Fr{
+    top: 20px;
+    background-color: #581845;
+    border-right: 2px solid #ccc;
+}
+#An{
+    top: 80px;
+    background-color: #581845;
+    border-right: 2px solid #ccc;
+}
+#Ar{
+    top: 140px;
+    background-color: #581845;
+    border-right: 2px solid #ccc;
+}
+/* 3eme objectif */
+.menubas{
+    text-align: center;
+    background-color: #581845;
+    overflow: hidden;
+}
+.menubas a{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 16px;
+    color: #ccc;
+    text-decoration: none;
+    font-size: 16px;
+}
+.menubas a:hover{
+    background-color: red;
+    color: white;
+    transition: 2s;
+}
+.menubas .icon{
+    display: none;
+}
+
+
+@media screen and (max-width:600px) {
+    .menubas a :not ( :first-child) {display: none;}
+    .menubas a .icon {
+        float: right;
+        display: block;
+
+    }
+}   
+
+  @media screen and (max-width:600px){
+    .menubas .resp{position: relative;}
+    .menubas .resp .icon{
+        position: absolute;
+        right: 0; top: 0;
+    }
+    .menubas .resp a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+  } 
+
+/* fin des objectifs */
+
+
+/* TABLEAU */
+.style-table{
+    border-collapse: collapse;
+    min-width: 400px;
+    width: auto;
+    box-shadow: 0.5px 50px rgba(0, 0, 0, 0);
+    cursor: pointer;
+    margin: 100px auto;
+    flex-wrap: wrap;
+    
+    /* border: 2px solid gray ;  */
+    border: 1px solid aliceblue;
+    
+    
+}
+
+.ZE tr{
+    background-color: burlywood;
+color: black;
+text-align: center;
+
+}
+.ZF th, td {
+    padding: 15px 20px;
+    text-align: center;
+}
+.ZF tr, th, td{
+    border: 1px solid gray;
+}
+
+.ZF tr:nth-child(even){
+    background-color: #ddd;
+}
+.ZF tr:last-of-type{
+    border-bottom: 5px solid burlywood;
+}
+.separation{
+    border-bottom: 1px solid black;
+    background-color: white;
+    
+    
+}
+.sepa1{
+    background-color: aliceblue;
+    border-bottom: 2px solid black;
+}
+.separa2{
+    border-bottom: 2px solid black;
+}
+/* INGETECH SARL */
+
+.YANIS{
+    margin: 10px 80px;
+margin-top: 30PX;
+background-color: white;
+
+}
+.YANIS .YANI{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    ;
+}
+.YANIS .YANI .ZDg img{
+height: 300px;
+width: 500px;
+}
+.YANIS .YANI .ZDd{
+   max-width: 50%;
+    margin-left: 40px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 10px;
+    
+} 
+.header-h1{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+  .header-h4{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.ZC{
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('IMAGE/construction\ 4.jpg') ;
+    padding: 100px;
+    color: black;
+    border-radius: 50px;
+    margin: 100px;
+}
+.inget a{
+    flex-wrap: wrap;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 20px;
+    background-color: aliceblue;
+    padding-bottom: 5px;
+    color: black;
+    border-radius: 10px;
+    
+    
+}
+
+.inget{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid red;
+    position: sticky;
+    top: 0;
+    background-color: red;
+    
+}
+.INGA{
+    margin-top: 3px;
+    margin-left: 500px;
+    flex-wrap: wrap;
+}
+
+.ING{
+    border-radius: 20%;
+    padding: 10px;
+}
+ .Exo{
+    background-color:gainsboro;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/* LES BOITES */
+ .MAEL {
+    margin-top: 40px;
+    border-top: 5px solid black;
+    margin: 50px;
+}
+.generals{
+    margin-top: 40px;
+    border-top: 5px solid black;
+    padding: 100px 100px; 
+    display: flex;
+    flex-wrap: wrap;
+}
+.generals .general{
+    margin-right: 40px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+.generals .generale{
+    margin-right: 40px;
+    padding: 20px;
+    background-color: burlywood;
+    color: black;
+    border-radius: 20px;
+}
+
+.generals .general  p{
+    max-width: 300px;
+}
+ .generale p{
+    max-width: 300px;
+}
+
+/* FIN DE LA BOITE */
+
+/* FIN INGETECH */
+
+
+/* GROUP AZ SERVICES */
+
+.ZG{
+    background-color: antiquewhite;
+}
+
+.deux{
+    margin: 20px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.deux-A{
+    padding: 20px;
+    background-color: burlywood;
+    
+}
+.groups{
+    display: flex;
+    flex-wrap: wrap;
+}
+.groups .group{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.groups .group img{
+    width: 350px;
+} .group-A{
+    max-width: 300px;
+}
+.separa4{
+    border-top: 5px solid black;
+}
+.ZA{
+    flex-wrap: wrap;
+    background: url('IMAGE/affiche\ a.jpg');
+    background-size: cover;
+    padding: 80px;
+    color: honeydew;
+    border-radius: 10%;
+}
+ .xy{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: honeydew;
+}
+
+
+
+.az{
+    width: 50px;
+    border-radius: 50%;
+}
+.Entrainement{
+    margin: 0%;
+    padding: 0%;
+    background-color: bisque;
+    
+}
+.ENT{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid rebeccapurple;
+}
+.ab{
+    font-size: 30px;
+    color: black;
+}
+.main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.main .content .card .left{
+    flex: 0 0 30%;
+    padding: 30px;
+    background-color: black;
+    color: azure;
+} .main .content .card.right{
+    flex: 0 0 70%;
+}
+.main .content .card img{
+    height: 300px;
+    width: 400;
+    margin-top: 5px;
+
+}
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 300px;
+}
+nav .onglets a{
+    text-decoration: none;
+    margin-right: 30px;
+    border-bottom: 2px solid black;
+    color: black;
+    padding-bottom: 5px;
+    background-color:burlywood;
+    font-size: 20px;
+    border-radius: 15%;
+    padding: 10px;
+    
+}
+.BD h1{
+    background-color: burlywood;  
+    padding: 10px;
+    border-radius: 10px; 
+}
+
+.BD{
+    justify-content: center;
+    display: flex;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@1,600&family=M+PLUS+Rounded+1c:wght@300&display=swap');
+@media screen and (max-width:680px){
+    nav .onglets{
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    
+}
+
+    
+    
+</html>
